@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veri Silme - Kelime Ustası</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 700px;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .icon {
+            text-align: center;
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .app-name {
+            text-align: center;
+            color: #764ba2;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+
+        .info-box {
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            padding: 25px;
+            border-radius: 15px;
+            margin: 25px 0;
+            border-left: 4px solid #667eea;
+        }
+
+        .info-box h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+
+        .success-box {
+            background: linear-gradient(135deg, #00b09b15 0%, #96c93d15 100%);
+            padding: 25px;
+            border-radius: 15px;
+            margin: 25px 0;
+            border-left: 4px solid #00b09b;
+        }
+
+        .success-box h2 {
+            color: #00b09b;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+
+        h2 {
+            color: #764ba2;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        .steps {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .step {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+
+        .step-number {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+
+        .step-content {
+            flex: 1;
+        }
+
+        .step-content strong {
+            color: #667eea;
+        }
+
+        .contact {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .contact a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 25px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        .back-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .back-link a {
+            color: #667eea;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="icon">🗑️</div>
+        <h1>Veri Silme Talebi</h1>
+        <div class="app-name">Kelime Ustası - Kelime Bulmaca Oyunu</div>
+
+        <div class="info-box">
+            <h2>ℹ️ Önemli Bilgi</h2>
+            <p><strong>Kelime Ustası</strong> uygulaması herhangi bir kullanıcı hesabı oluşturmaz ve kişisel
+                bilgilerinizi sunucularımızda saklamaz.</p>
+            <p>Tüm oyun verileri (ilerleme, puanlar, ayarlar) yalnızca <strong>cihazınızda yerel olarak</strong>
+                depolanır.</p>
+        </div>
+
+        <h2>🧹 Verilerinizi Nasıl Silebilirsiniz?</h2>
+
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <strong>Uygulama Verilerini Temizle</strong><br>
+                    Ayarlar → Uygulamalar → Kelime Ustası → Depolama → "Verileri Temizle" butonuna tıklayın.
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <strong>Uygulamayı Kaldır</strong><br>
+                    Uygulamayı cihazınızdan kaldırdığınızda tüm yerel veriler otomatik olarak silinir.
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <strong>Reklam Kimliğini Sıfırla (İsteğe Bağlı)</strong><br>
+                    Ayarlar → Google → Reklamlar → "Reklam kimliğini sıfırla" seçeneğini kullanın.
+                </div>
+            </div>
+        </div>
+
+        <div class="success-box">
+            <h2>✅ Silinen Veriler</h2>
+            <p>Yukarıdaki adımları tamamladığınızda aşağıdaki veriler kalıcı olarak silinir:</p>
+            <ul style="margin-left: 20px; margin-top: 10px;">
+                <li>Oyun ilerlemeniz ve tamamlanan seviyeler</li>
+                <li>Kazanılan puanlar ve istatistikler</li>
+                <li>Uygulama ayarları ve tercihleriniz</li>
+                <li>Yerel önbellek verileri</li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <h2 style="color: #667eea; border: none; margin-top: 0;">📧 Yardıma mı İhtiyacınız Var?</h2>
+            <p>Veri silme konusunda ek sorularınız varsa bizimle iletişime geçin:</p>
+            <p><a href="mailto:kelimeustasi.app@gmail.com">kelimeustasi.app@gmail.com</a></p>
+            <p style="margin-top: 15px; font-size: 0.9em; color: #888;">Talebiniz en geç 7 iş günü içinde
+                yanıtlanacaktır.</p>
+        </div>
+
+        <div class="back-link">
+            <a href="index.html">← Gizlilik Politikasına Dön</a>
+        </div>
+
+        <div class="footer">
+            <p>© 2024 Kelime Ustası. Tüm hakları saklıdır.</p>
+        </div>
+    </div>
+</body>
+
+</html>
